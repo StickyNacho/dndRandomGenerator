@@ -137,12 +137,12 @@ function randomBackground()
 
 function randomstats()
     {
-        var one = Math.floor((Math.random() * 13) + 8);
-        var two = Math.floor((Math.random() * 13) + 8);
-        var three = Math.floor((Math.random() * 13) + 8);
-        var four = Math.floor((Math.random() * 13) + 8);
-        var five = Math.floor((Math.random() * 13) + 8);
-        var six = Math.floor((Math.random() * 13) + 8);
+        var one =   Math.floor((Math.random() * 11) + 8);
+        var two =   Math.floor((Math.random() * 11) + 8);
+        var three = Math.floor((Math.random() * 11) + 8);
+        var four =  Math.floor((Math.random() * 11) + 8);
+        var five =  Math.floor((Math.random() * 11) + 8);
+        var six =   Math.floor((Math.random() * 11) + 8);
         var total = one + two + three + four + five + six;
         document.getElementById("Stats").innerHTML = one + " + " + two + " + " + three + " + " + four + " + " + five + " + " + six + " = " + total;
     }
